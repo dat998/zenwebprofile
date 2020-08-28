@@ -1,0 +1,25 @@
+#div1{
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    position:absolute;
+    z-index: 1;
+    top: 50px;
+    left: 50px;
+    opacity: 0;
+}
+#div2{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(233, 20, 20);
+    position: absolute;
+    z-index: 2;
+    top: 80px;
+    left: 80px;
+    opacity:0;
+}
+p span{
+    font-weight: bold;
+    display: inline;
+    background-color: lightblue;
+}

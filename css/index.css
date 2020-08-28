@@ -1,0 +1,106 @@
+body{
+    background-color: rgba(187, 209, 243, 0.705);
+    
+}
+nav,
+nav ul,
+nav li,
+nav a {
+ 	margin: 0;
+ 	padding: 0;
+ 	border: none;
+ 	outline: none;
+ }
+
+ nav{
+ 	height: 40px;
+ 	background-color: #7c7d83;
+ 	background: linear-gradient(top,#4c4e5a 0%,#2c2d33 100%);
+ 	border-radius: 5px;
+ }
+ nav ul li{
+ 	position: relative;
+ 	list-style: none;
+ 	float: left;
+ 	display: block;
+ 	height: 40px;
+ }
+ nav ul li a{
+    width: auto;
+ 	display: block;
+ 	padding: 0 14px;
+ 	margin: 6px 0;
+ 	line-height: 28px;
+ 	text-decoration: none;
+ 	border-right: 1px solid #393942;
+ 	border-left: 1px solid #4f5058;
+ 	font-family: Helvetica, Arial, san-serif;
+ 	font-size: 13px;
+ 	font-weight: bold;
+ 	color: #f3f3f3;
+ 	text-shadow: 1px 1px 1px rgba(0,0,0,6);
+    transition: color .2s ease-in-out;
+
+ }
+  nav ul li:first-child a{border-left:none;}
+  nav ul li:last-child a{border-left:none;}
+
+  nav ul li:hover > a{color: #8fde62}
+
+img:hover{
+    box-shadow: 0 10px 36px rgba(34, 42, 78, 0.15);
+}
+
+ul.submenu {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 400px;
+    
+    opacity: 0;
+    background: #7c7d83;
+    
+    border-radius: 0 0 5px 5px;
+    transition: opacity .25s ease .1s;
+}
+nav ul li:hover>ul.submenu{
+    opacity: 10;
+    height: auto;
+}
+
+.submenu li a{
+    border:none;
+}
+.submenu li{
+    width: 100%;
+    border-bottom: 1px solid #393942; 
+}
+.submenu li:last-child { border-bottom: none; }
+
+.submenu li a{
+    width: 100%;
+    padding: 4px 0px 4px 40px;
+    margin: 0;
+    border: none;
+
+}
+.gioithieu{
+    float: left;
+    margin-left: 120px;
+    text-shadow: -1px -1px 1px rgb(112, 128, 131);
+    font-size: 22px;
+    color: rgb(88, 90, 97);
+}
+img{
+    border-radius: 5%;
+}
+.background{
+    width: auto;
+    height: 200px;
+    background-image: url('../images/bg.jpg');
+}
+.end{
+    width: auto;
+    height: 50px;
+    float: right;
+}

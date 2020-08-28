@@ -1,0 +1,65 @@
+
+body{
+    background: rgb(155, 228, 155) /*url(./sky.jpg)*/ no-repeat 100px 50px;
+    /*
+    background-image: url(./sky.jpg);
+    background-repeat: no-repeat;
+    background-position:  0px  100px;
+    background-size: cover;
+    */
+}
+
+p{
+    color: rgb(235, 221, 18);
+}
+#div1{
+    width: 1000px;
+    height: 1000px;
+    background-image: url(./tải\ xuống.png);
+    background-repeat:no-repeat;
+    background-position: left top;
+    position: relative;
+    left: 100px;
+    top: 50px;
+    z-index: 4;
+}
+#div2{
+    width: 200px;
+    height: 500px;
+    background-color:rgb(47, 247, 21);
+    position: absolute;
+    left: 200px;
+    top: 70px;
+    z-index: 6;
+}
+#div3{
+    width: 200px;
+    height: 200px;
+    background-color:rgb(236, 10, 10);
+    background-image: url(./anh1.jpg);
+    position: fixed;
+    left: 250px;
+    top: 10px;
+    z-index: 70;
+    border-radius: 90%;
+}
+#div4{
+    width: 100px;
+    height: 50px;
+    background-color: rgba(247, 77, 15, 0.911);
+    border-radius: 90%;
+    position: absolute;
+    background-position: center;
+    margin: 0 auto;
+    left: 1000;
+    margin-top: auto;
+    margin-left: auto;
+    z-index: 100;
+
+
+}
+#div5{
+    width: 150px;
+    height: 20px;  
+    background-color: white;
+}

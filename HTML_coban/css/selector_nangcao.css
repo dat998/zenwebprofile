@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+}
+a:link, a:active, a:visited{
+    color: teal;
+    font-size: 20px;
+    text-decoration: none;
+}
+a:hover{
+    color: turquoise;
+}
+.vidu{
+    width: 150px;
+    padding: 5px;
+    border: 1px solid rgb(70, 180, 98);
+    outline: none;
+}
+.vidu:hover{
+    border: 1px solid rgb(240, 25, 25);
+}
+.vidu:focus{
+    border: 1px solid rgb(61, 18, 179);
+}
+
+p:first-child{
+    color: rebeccapurple;
+}
+p:last-child{
+    color: red;
+}
+/*thẻ p là con thứ 3 từ trên xuống*/
+p:nth-child(3){
+    color: royalblue;
+}
+/*thẻ p là thẻ con thứ 3 ttuwf dưới lên */
+p:nth-last-child(3){
+    color: saddlebrown;
+}
+div ::before{
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(18, 36, 199);
+}
+div ::after{
+    content: "...!";
+}

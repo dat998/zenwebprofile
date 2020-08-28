@@ -1,0 +1,44 @@
+body{
+    background-color: antiquewhite;
+}
+.p1{
+    text-align: justify;
+    text-decoration: underline;
+    /*thụt đầu dòng 50px*/
+    text-indent: 50px;
+    /*khoảng cách giữa 2 ký tự*/
+    letter-spacing: 2px;
+    /*độ cao của dòng*/
+    line-height: 25px;
+    font-size: 20px;
+    /*khoảng cách giữa các từ*/
+    word-spacing: 10px;
+    text-shadow: 2px  2px 1px rgb(27, 145, 175);
+    color: rgb(37, 46, 41);
+    max-width: 1000px;
+    max-height: 80px;
+    overflow: auto;
+    /*dấu ... sau chữ và không hiển thị các ký tự sau dấu ...*/
+    /*text-overflow: ellipsis;*/
+    /*loại bỏ hiệu ứng xuống hàng*/
+    /*white-space: nowrap;*/
+    border: 2px solid rgb(24, 18, 17);
+
+}
+#viet_nguoc{
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    font-size: 50px;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+    text-indent: 20px;
+    color: steelblue;
+}
+#img1{
+    width: 80px;
+    vertical-align: text-top;
+}
+#img2{
+    width: 80px;
+    vertical-align: text-bottom;
+}
